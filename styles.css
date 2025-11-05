@@ -105,6 +105,32 @@ li strong {
     font-weight: 600;
 }
 
+/* 注記 */
+.note {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 16px 20px;
+    margin: 20px 0;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.note strong {
+    color: #856404;
+}
+
+/* リンク */
+a {
+    color: #667eea;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s ease;
+}
+
+a:hover {
+    border-bottom: 1px solid #667eea;
+}
+
 /* コンタクト情報 */
 .contact-info {
     background: #f8f9fa;
